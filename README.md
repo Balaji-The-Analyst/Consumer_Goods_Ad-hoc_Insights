@@ -14,5 +14,8 @@ However, the management noticed that they did not get enough insights to make qu
 9)  Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
 10)  Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021.
 
+## I took the following steps to create my analysis
+1) 
+
     
 
