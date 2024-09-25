@@ -26,5 +26,16 @@ However, the management noticed that they did not get enough insights to make qu
 9) Calculated the channel with the highest sales using `SUM()` and percentage contribution with `window functions`.
 10) Utilized `RANK()` and `PARTITION BY` to find the top 3 products in each division based on total sold quantity.
 
-    
+## Here are my key takeaways
+1) Atliq Exclusive operates in diverse APAC markets such as India, Indonesia, Japan, and Australia, showcasing a strategic approach to capitalize on growth opportunities across both emerging and developed economies.
+2) The number of unique products grew by 36.33%, increasing from 245 in 2020 to 334 in 2021, highlighting "Atliq Exclusive's" robust product expansion strategy.
+3) The Notebook segment leads with 129 unique products, indicating its dominance in the portfolio, followed by Accessories and Peripherals, which also contribute significantly to product diversity.
+4) The Accessories segment saw the largest increase in unique products from 2020 to 2021, growing by 34 products, while the Desktop segment also experienced a significant rise of 15 unique products
+5) The AQ Dracula HDD exhibits a stark contrast in manufacturing costs, with the highest cost at approximately $240.54 and the lowest at $0.89, highlighting significant variability in production expenses
+6) The top five customers receiving the highest average pre-invoice discounts in 2021 include Flipkart at 0.31, followed closely by Viveks and Ezone, indicating strong relationships and competitive pricing strategies in the market.
+7) Monthly sales peaked at 32.25 million in November 2020, with the lowest at 0.77 million in March 2020, highlighting significant seasonal fluctuations.
+8) Q1 recorded the highest total sold quantity at 7.01 million, while Q3 saw the lowest at just 2.08 million, indicating marked seasonal variation in sales.
+9) The Retailer channel generated the highest gross sales at 1,924.17 million, contributing 73.22% of total sales, significantly outperforming the Direct and Distributor channels.
+10) The AQ Pen Drive DRC topped sales with 688,003 units sold, followed by the AQ Gamers Ms and AQ Maxima Ms, indicating strong demand.
+
 
