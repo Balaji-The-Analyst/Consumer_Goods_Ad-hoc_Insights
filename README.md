@@ -15,7 +15,16 @@ However, the management noticed that they did not get enough insights to make qu
 10)  Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021.
 
 ## I took the following steps to create my analysis
-1) 
+1) Utilized `SELECT DISTINCT` and `WHERE` clauses to filter and extract unique markets for specific customers.
+2) Employed CTEs and CROSS JOIN to compare `year-over-year` unique product counts and calculate percentage increase.
+3) Used `GROUP BY` and `ORDER BY` to count unique products by segment and sort them in descending order.
+4) Leveraged `CTEs` and `CROSS JOIN` for segment-wise comparison of unique products between 2020 and 2021.
+5) Applied `JOIN operations` and `ORDER BY` to retrieve products with the highest and lowest manufacturing costs.
+6) Implemented `AVG()` and `GROUP BY` to calculate the average pre-invoice discount percentage for the top 5 customers.
+7) Combined `SUM()`, `JOIN`, and GROUP BY to report gross sales by month and year for specific customers.
+8) Partitioned sales data into quarters using the `NTILE()` `window function` for quarter-wise sales analysis.
+9) Calculated the channel with the highest sales using `SUM()` and percentage contribution with `window functions`.
+10) Utilized `RANK()` and `PARTITION BY` to find the top 3 products in each division based on total sold quantity.
 
     
 
