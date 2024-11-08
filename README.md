@@ -27,6 +27,7 @@ cross join cte c2
 where c1.fiscal_year=2020 and c2.fiscal_year=2021;
 ```
 **Output**
+
 ![2](https://github.com/user-attachments/assets/648f68e8-1c2f-472c-b8d1-3e117c1bc3ab)
 
 
@@ -38,6 +39,7 @@ group by segment
 order by unique_products desc;
 ```
 **Output**
+
 ![3](https://github.com/user-attachments/assets/79144ece-4299-41d2-914a-0d069467da71)
 
 4. Which segment had the most increase in unique products in 2021 vs 2020?
@@ -52,6 +54,7 @@ where c1.segment=c2.segment and c1.fiscal_year=2020 and c2.fiscal_year=2021
 order by difference desc;
 ```
 **Output**
+
 ![4](https://github.com/user-attachments/assets/cd61dda0-1eca-4bb6-96c7-a6e4dee1fe13)
 
 5. Get the products that have the highest and lowest manufacturing costs.
@@ -67,6 +70,7 @@ join fact_manufacturing_cost m
 order by m.manufacturing_cost asc limit 1);
 ```
 **Output**
+
 ![5](https://github.com/user-attachments/assets/4e9d3e27-9c3e-4aaf-baa9-1dbce5798b90)
 
 6. Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market.
@@ -80,6 +84,7 @@ order by avg_discount desc
 limit 5;
 ```
 **Output**
+
 ![6](https://github.com/user-attachments/assets/7fa54909-7907-4596-b6fe-49320f97427a)
 
 7. Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month. This analysis helps to get an idea of low and high-performing months and take strategic decisions.
@@ -95,6 +100,7 @@ group by month,year
 order by year;
 ```
 **Output**
+
 ![7](https://github.com/user-attachments/assets/f1b67c79-5554-4c7b-8ad5-abb4346bde61)
 
 8. In which quarter of 2020, got the maximum total_sold_quantity?
@@ -117,6 +123,7 @@ from cte1
 group by Quaters; 
 ```
 **Output**
+
 ![8](https://github.com/user-attachments/assets/8ff2d038-819e-47e8-a3eb-6ef9f726ceb7)
 
 9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
@@ -133,6 +140,7 @@ select channel,sales_in_millions,(sales_in_millions/sum(sales_in_Millions) over(
 from cte;
 ```
 **Output**
+
 ![9](https://github.com/user-attachments/assets/932138bd-ac2e-4e49-a9ac-ba026bfa914d)
 
 10. Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021?
@@ -151,6 +159,7 @@ from cte
 where rank_ in (1,2,3)
 ```
 **Output**
+
 ![10](https://github.com/user-attachments/assets/ce61433a-534b-40c4-9822-b2cb92bc3472)
 
 
