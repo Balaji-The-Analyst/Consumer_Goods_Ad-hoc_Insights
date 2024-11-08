@@ -9,6 +9,7 @@ However, the management noticed that they did not get enough insights to make qu
 select distinct market from dim_customer where customer='Atliq Exclusive' and region='APAC';
 ```
 **Output**
+
 ![1](https://github.com/user-attachments/assets/739db421-3d29-461b-97ba-707bfaf5b871)
 
 2. What is the percentage of unique product increase in 2021 vs. 2020?
